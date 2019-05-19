@@ -7,7 +7,7 @@ public class Pentagon extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("The pentagon color is:");
+        System.out.println("The pentagon color:");
         color.applyColor();
     }
 }
