@@ -1,4 +1,4 @@
-package template2;
+package template.template2;
 
 public class WoodenHouse extends House {
 

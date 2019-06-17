@@ -1,4 +1,4 @@
-package Template3;
+package template.template3;
 
 public class TemplatePatternDemo {
     public static void main(String[] args) {
@@ -6,6 +6,11 @@ public class TemplatePatternDemo {
         CaffeineBeverage tea = new Tea();
 
         coffee.prepareRecipe();
+        System.out.println();
         tea.prepareRecipe();
+        System.out.println();
+
+        CaffeineBeverage coffeeWithHook = new CoffeeWithHool();
+        coffeeWithHook.prepareRecipe();
     }
 }

@@ -1,4 +1,4 @@
-package template2;
+package template.template2;
 
 public class TemplatePatternDemo2 {
     public static void main(String[] args) {

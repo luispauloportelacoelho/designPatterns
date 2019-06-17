@@ -1,4 +1,4 @@
-package Template3;
+package template.template3;
 
 public class Coffee extends CaffeineBeverage {
     @Override

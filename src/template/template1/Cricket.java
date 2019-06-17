@@ -1,4 +1,4 @@
-package template;
+package template.template1;
 
 public class Cricket extends Game {
     @Override
