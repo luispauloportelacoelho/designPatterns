@@ -20,4 +20,14 @@ public class Flock implements Quackable {
         }
 
     }
+
+    @Override
+    public void registerObserver(Observer observer) {
+
+    }
+
+    @Override
+    public void notifyObservers() {
+
+    }
 }
