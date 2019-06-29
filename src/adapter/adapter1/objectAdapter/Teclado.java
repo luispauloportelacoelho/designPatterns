@@ -1,4 +1,4 @@
-package adapter.objectAdapter;
+package adapter.adapter1.objectAdapter;
 
 //Classe Cliente(Client)
 public class Teclado {
