@@ -18,6 +18,8 @@ Adapters can not only convert data into various formats but can also help object
 3. Upon receiving a call, the adapter passes the request to the second object, but in a format and order that the second object expects.
 Sometimes it’s even possible to create a two-way adapter that can convert the calls in both directions.
 
-## Bibliography:
+Let's get back to our stock market app. To solve the dilemma of incompatible formats, you can create XML-to-JSON adapters for every class of the analytics library that your code works with directly. Then you adjust your code to communicate with the library only via these adapters. When an adapter receives a call, it translates the incoming XML data into a JSON structure and passes the call to the appropriate methods of a wrapped analytics object.
+
+## Bibliography
 - https://refactoring.guru/design-patterns/adapter
 - https://sourcemaking.com/design_patterns/adapter
