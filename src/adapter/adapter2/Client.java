@@ -1,4 +1,4 @@
-package adapter2;
+package adapter.adapter2;
 
 public class Client {
 
