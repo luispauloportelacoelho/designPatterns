@@ -1,4 +1,4 @@
-package bridge;
+package bridge.bridge1;
 
 public class Circle extends Shape {
 

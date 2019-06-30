@@ -1,4 +1,4 @@
-package bridge;
+package bridge.bridge1;
 
 public abstract class Shape {
     DrawAPI drawAPI;
