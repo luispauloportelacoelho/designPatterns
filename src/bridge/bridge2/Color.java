@@ -1,4 +1,4 @@
-package bridge2;
+package bridge.bridge2;
 
 public interface Color {
     void applyColor();
